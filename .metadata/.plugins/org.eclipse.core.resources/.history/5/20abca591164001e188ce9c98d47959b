@@ -1,0 +1,28 @@
+package com.study.spring;
+
+import org.aspectj.lang.ProceedingJoinPoint;
+
+public class LogAop
+{
+	// beans.xml에 등록된 표현식에 의해 Student 클래스와 Worker 클래스가 조인포인트로
+	// 설정 되었기때문에 해당클래스의 모든 메서드는 포인트컷이 되었음.
+	public Object loggerAop(ProceedingJoinPoint joinpoint) throws Throwable {
+		String signatureStr = joinpoint.getSignature().toShortString();
+		System.out.println( signatureStr + " is start.");
+		
+		long st = System.currentTimeMillis();
+		
+		try
+		{
+			// loggerApp의 파라미터로 전달이 되고 실제로 이곳에서 실행이 된다.
+			Object obj = joinpoint.proceed();
+			return obj;
+		} finally 
+		{
+			long et = System.currentTimeMillis();
+			
+			System.out.println( signatureStr + " is finished.");
+			System.out.println( signatureStr + " 경과시간 : " +(et - st));
+		}
+	}
+}

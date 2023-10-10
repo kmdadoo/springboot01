@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Thu Oct 05 11:01:24 KST 2023
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\study02\\.m2\\repository\\org\\springframework\\spring-web\\6.0.4\\spring-web-6.0.4.jar=C\:\\Dev\\apache-tomcat-10.1.13\\wtpwebapps\\Spring-MVC-Project\\WEB-INF\\lib\\spring-web-6.0.4.jar
+org.eclipse.jst.jee.server\:Spring-MVC-Project=C\:\\Dev\\apache-tomcat-10.1.13\\wtpwebapps\\Spring-MVC-Project

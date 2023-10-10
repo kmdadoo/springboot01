@@ -1,0 +1,12 @@
+package com.study.spring;
+
+public class HelloBeanTest
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

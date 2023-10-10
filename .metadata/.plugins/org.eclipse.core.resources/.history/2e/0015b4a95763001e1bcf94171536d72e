@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+						http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/context 
+						http://www.springframework.org/schema/context/spring-context.xsd">
+						
+	<!-- 어노테이션이 선언된 클래스들을 스캔하기 위한 설정 -->
+	<!-- 
+		Environment 객체를 사용하지 않고 XML설정파일에서 바로 외부파일을 가져오기
+		위해 "context" 네임스페이스를 추가한다. 추가된 네임스페이스를 기반으로 엘리
+		먼트를 추가한 후 프로퍼티소스 파일의 위치를 설정한다.
+	 -->
+	<context:component-scan base-package="com.study.spring"/>
+
+</beans>

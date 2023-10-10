@@ -1,4 +1,0 @@
-db.driverClass=com.sql.jdbc.Driver
-db.url=jdbc:mysql://localhost/testdb
-db.username=spring2
-db.password=testpw2

@@ -1,20 +1,7 @@
-INDEX VERSION 1.4+C:\DevData\Spring\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-151699064.index
-3973980805.index
-1511110363.index
-1361469847.index
-3374663415.index
-242131061.index
-187680783.index
-584246306.index
-4053661090.index
-3624263367.index
-786187192.index
-3871485222.index
-3899574284.index
-3373115668.index
-1689432055.index
-383414652.index
-3500726224.index
-4121477678.index
-1877277831.index
+INDEX VERSION 1.4+C:\DevData\SpringBoot\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+269884145.index
+1623424798.index
+690723117.index
+2872845690.index
+3856957776.index
+3435648363.index

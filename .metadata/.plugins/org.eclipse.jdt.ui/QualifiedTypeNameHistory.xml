@@ -16,5 +16,7 @@
     <fullyQualifiedTypeName name="com.sutdy.springboot.bean.Config"/>
     <fullyQualifiedTypeName name="com.sutdy.springboot.bean.Printer"/>
     <fullyQualifiedTypeName name="com.sutdy.springboot.bean.Member"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.NotEmpty"/>
     <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="com.study.springboot.dao.ISimpleBbsDao"/>
 </qualifiedTypeNameHistroy>

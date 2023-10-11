@@ -3875,3 +3875,1027 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-10 17:25:50.174
 !MESSAGE Classpath changed for project: Ex07_Form
+!SESSION 2023-10-11 09:31:51.271 -----------------------------------------------
+eclipse.buildId=4.20.0.202309081654
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-10-11 09:31:54.118
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-10-11 09:33:33.666
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-11 09:33:33.666
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-11 09:33:33.666
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-11 09:33:33.667
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-11 09:33:41.132
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Dev\sts-4.20.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin\javaw.exe
+-cp
+C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes;C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/DevData/SpringBoot/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1696984421132
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:33:41.133
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-11 09:33:41.184
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11980
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-11 09:33:43.291
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\study02'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:33:44.063
+!MESSAGE Boot project ADDED: Ex02_JavaCodeDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:33:44.063
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:33:44.064
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:33:44.065
+!MESSAGE Boot project ADDED: Ex03_AnnotationDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:33:44.065
+!MESSAGE Boot project ADDED: Ex04_WebBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:33:44.066
+!MESSAGE Boot project ADDED: Ex05_JspUse
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:33:44.066
+!MESSAGE Boot project ADDED: Ex06_Model
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:33:44.067
+!MESSAGE Boot project ADDED: Ex07_Form
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:33:44.067
+!MESSAGE Boot project ADDED: HelloWorld
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:33:44.068
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:47:07.032
+!MESSAGE Classpath changed for project: Ex08_Lombok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:47:07.033
+!MESSAGE Boot project ADDED: Ex08_Lombok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:47:08.274
+!MESSAGE Classpath changed for project: Ex08_Lombok
+!SESSION 2023-10-11 09:53:11.568 -----------------------------------------------
+eclipse.buildId=4.20.0.202309081654
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-10-11 09:53:13.801
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-10-11 09:53:38.887
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-11 09:53:38.887
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-11 09:53:38.887
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-11 09:53:38.887
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-11 09:53:45.334
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Dev\sts-4.20.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin\javaw.exe
+-cp
+C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes;C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/DevData/SpringBoot/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1696985625333
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:53:45.334
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-11 09:53:45.415
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 5436
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-11 09:53:47.454
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\study02'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:53:48.299
+!MESSAGE Boot project ADDED: Ex02_JavaCodeDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:53:48.300
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:53:48.301
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:53:48.302
+!MESSAGE Boot project ADDED: Ex03_AnnotationDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:53:48.302
+!MESSAGE Boot project ADDED: Ex04_WebBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:53:48.303
+!MESSAGE Boot project ADDED: Ex05_JspUse
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:53:48.303
+!MESSAGE Boot project ADDED: Ex06_Model
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:53:48.304
+!MESSAGE Boot project ADDED: Ex07_Form
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:53:48.305
+!MESSAGE Boot project ADDED: Ex08_Lombok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:53:48.306
+!MESSAGE Boot project ADDED: HelloWorld
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:53:48.306
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.eclipse.jface 2 0 2023-10-11 09:56:27.274
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-11 09:56:27.274
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 09:57:15.189
+!MESSAGE Classpath changed for project: Ex08_Lombok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 10:15:55.094
+!MESSAGE Classpath changed for project: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 10:15:55.098
+!MESSAGE Boot project ADDED: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 10:18:53.981
+!MESSAGE Classpath changed for project: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 10:26:15.612
+!MESSAGE Classpath changed for project: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 10:26:15.613
+!MESSAGE Boot project REMOVED: Ex09_Validator
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-10-11 10:26:15.627
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): Ex09_Validator does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:550)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2567)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2445)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2488)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:428)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-10-11 10:26:15.631
+!MESSAGE Ex09_Validator does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-10-11 10:26:15.632
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): Ex09_Validator does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:550)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2567)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2445)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2488)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:428)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-10-11 10:26:15.633
+!MESSAGE Ex09_Validator does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-10-11 10:26:15.633
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): Ex09_Validator does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:550)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2567)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2445)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2488)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:428)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-10-11 10:26:15.634
+!MESSAGE Ex09_Validator does not exist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 10:27:05.957
+!MESSAGE Classpath changed for project: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 10:27:05.958
+!MESSAGE Boot project ADDED: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 10:28:02.776
+!MESSAGE Classpath changed for project: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 11:19:40.587
+!MESSAGE Classpath changed for project: Ex10_ValidationUtils
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 11:19:42.129
+!MESSAGE Classpath changed for project: Ex10_ValidationUtils
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 11:19:43.089
+!MESSAGE Classpath changed for project: Ex10_ValidationUtils
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 11:19:43.089
+!MESSAGE Boot project ADDED: Ex10_ValidationUtils
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:12:12.670
+!MESSAGE Classpath changed for project: Ex11_Valid_initBinder
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:12:14.206
+!MESSAGE Classpath changed for project: Ex11_Valid_initBinder
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:12:17.481
+!MESSAGE Classpath changed for project: Ex11_Valid_initBinder
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:12:17.481
+!MESSAGE Boot project ADDED: Ex11_Valid_initBinder
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:12:19.075
+!MESSAGE Classpath changed for project: Ex11_Valid_initBinder
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:38:04.972
+!MESSAGE Classpath changed for project: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:38:06.505
+!MESSAGE Classpath changed for project: Ex12_Valid_Annotation
+
+!ENTRY org.eclipse.wst.common.modulecore 4 0 2023-10-11 12:38:06.556
+!MESSAGE Attempted to beginRule: F/Ex12_Valid_Annotation/.settings, does not match outer scope rule: org.eclipse.jst.j2ee.navigator.internal.NonConflictingRule@616fbab3
+!STACK 0
+java.lang.IllegalArgumentException: Attempted to beginRule: F/Ex12_Valid_Annotation/.settings, does not match outer scope rule: org.eclipse.jst.j2ee.navigator.internal.NonConflictingRule@616fbab3
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:66)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:138)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:402)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:93)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:342)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2403)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1602)
+	at org.eclipse.core.internal.resources.File.refreshLocal(File.java:337)
+	at org.eclipse.jem.util.emf.workbench.WorkbenchURIConverterImpl.createPlatformResourceInputStream(WorkbenchURIConverterImpl.java:501)
+	at org.eclipse.emf.ecore.resource.impl.URIConverterImpl.createInputStream(URIConverterImpl.java:435)
+	at org.eclipse.emf.ecore.resource.impl.URIConverterImpl.createInputStream(URIConverterImpl.java:451)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1314)
+	at org.eclipse.wst.common.internal.emf.resource.CompatibilityXMIResourceImpl.load(CompatibilityXMIResourceImpl.java:277)
+	at org.eclipse.wst.common.internal.emf.resource.TranslatorResourceImpl.load(TranslatorResourceImpl.java:432)
+	at org.eclipse.wst.common.componentcore.internal.ModuleStructuralModel.getAndLoadLocalResource(ModuleStructuralModel.java:377)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getResource(EditModel.java:692)
+	at org.eclipse.wst.common.componentcore.internal.ModuleStructuralModel.getPrimaryResource(ModuleStructuralModel.java:332)
+	at org.eclipse.wst.common.componentcore.internal.ModuleStructuralModel.prepareProjectModulesIfNecessary(ModuleStructuralModel.java:240)
+	at org.eclipse.wst.common.componentcore.internal.ModuleStructuralModel.getPrimaryRootObject(ModuleStructuralModel.java:119)
+	at org.eclipse.wst.common.componentcore.internal.StructureEdit.getComponentModelRoot(StructureEdit.java:471)
+	at org.eclipse.wst.common.componentcore.internal.StructureEdit.getWorkbenchModules(StructureEdit.java:506)
+	at org.eclipse.wst.common.componentcore.internal.StructureEdit.getComponent(StructureEdit.java:949)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualResource.getReadOnlyComponent(VirtualResource.java:341)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualResource.getProjectRelativePaths(VirtualResource.java:118)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualResource.getProjectRelativePath(VirtualResource.java:154)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualResource.getWorkspaceRelativePath(VirtualResource.java:109)
+	at org.eclipse.wst.common.componentcore.internal.impl.ComponentCoreURIConverter.newPlatformURI(ComponentCoreURIConverter.java:105)
+	at org.eclipse.wst.common.componentcore.internal.impl.ComponentCoreURIConverter.access$1(ComponentCoreURIConverter.java:93)
+	at org.eclipse.wst.common.componentcore.internal.impl.ComponentCoreURIConverter$1.delegatedGetURI(ComponentCoreURIConverter.java:173)
+	at org.eclipse.emf.ecore.resource.impl.URIMappingRegistryImpl.getURI(URIMappingRegistryImpl.java:120)
+	at org.eclipse.emf.ecore.resource.impl.URIMappingRegistryImpl$URIMapImpl.getURI(URIMappingRegistryImpl.java:162)
+	at org.eclipse.jem.internal.util.emf.workbench.WorkspaceResourceHandler.getResource(WorkspaceResourceHandler.java:47)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResourceFromHandlers(ProjectResourceSetImpl.java:855)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.delegatedGetResource(ProjectResourceSetImpl.java:708)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1060)
+	at org.eclipse.wst.common.internal.emfworkbench.WorkbenchResourceHelper.getOrCreateResource(WorkbenchResourceHelper.java:380)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getResource(EditModel.java:694)
+	at org.eclipse.wst.common.componentcore.internal.ArtifactEditModel.getResource(ArtifactEditModel.java:198)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getPrimaryResource(EditModel.java:1530)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getPrimaryRootObject(EditModel.java:1511)
+	at org.eclipse.wst.common.componentcore.ArtifactEdit.getContentModelRoot(ArtifactEdit.java:567)
+	at org.eclipse.jst.j2ee.navigator.internal.FlexibleEMFModelManager.getRootObjects(FlexibleEMFModelManager.java:92)
+	at org.eclipse.jst.j2ee.navigator.internal.FlexibleEMFModelManager.getModels(FlexibleEMFModelManager.java:57)
+	at org.eclipse.jst.j2ee.navigator.internal.EMFRootObjectProvider.getModels(EMFRootObjectProvider.java:58)
+	at org.eclipse.jst.j2ee.navigator.internal.LoadingDDJob.run(LoadingDDJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.common.modulecore 4 0 2023-10-11 12:38:06.557
+!MESSAGE Attempted to beginRule: F/Ex12_Valid_Annotation/.settings, does not match outer scope rule: org.eclipse.jst.j2ee.navigator.internal.NonConflictingRule@616fbab3
+!STACK 0
+java.lang.IllegalArgumentException: Attempted to beginRule: F/Ex12_Valid_Annotation/.settings, does not match outer scope rule: org.eclipse.jst.j2ee.navigator.internal.NonConflictingRule@616fbab3
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:66)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:138)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:402)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:93)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:342)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2403)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1602)
+	at org.eclipse.core.internal.resources.File.refreshLocal(File.java:337)
+	at org.eclipse.jem.util.emf.workbench.WorkbenchURIConverterImpl.createPlatformResourceInputStream(WorkbenchURIConverterImpl.java:501)
+	at org.eclipse.emf.ecore.resource.impl.URIConverterImpl.createInputStream(URIConverterImpl.java:435)
+	at org.eclipse.emf.ecore.resource.impl.URIConverterImpl.createInputStream(URIConverterImpl.java:451)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1314)
+	at org.eclipse.wst.common.internal.emf.resource.CompatibilityXMIResourceImpl.load(CompatibilityXMIResourceImpl.java:277)
+	at org.eclipse.wst.common.internal.emf.resource.TranslatorResourceImpl.load(TranslatorResourceImpl.java:432)
+	at org.eclipse.wst.common.componentcore.internal.ModuleStructuralModel.getAndLoadLocalResource(ModuleStructuralModel.java:377)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getResource(EditModel.java:692)
+	at org.eclipse.wst.common.componentcore.internal.ModuleStructuralModel.getPrimaryResource(ModuleStructuralModel.java:332)
+	at org.eclipse.wst.common.componentcore.internal.ModuleStructuralModel.prepareProjectModulesIfNecessary(ModuleStructuralModel.java:240)
+	at org.eclipse.wst.common.componentcore.internal.ModuleStructuralModel.getPrimaryRootObject(ModuleStructuralModel.java:119)
+	at org.eclipse.wst.common.componentcore.internal.StructureEdit.getComponentModelRoot(StructureEdit.java:471)
+	at org.eclipse.wst.common.componentcore.internal.StructureEdit.getWorkbenchModules(StructureEdit.java:506)
+	at org.eclipse.wst.common.componentcore.internal.StructureEdit.getComponent(StructureEdit.java:949)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualResource.getReadOnlyComponent(VirtualResource.java:341)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualResource.getProjectRelativePaths(VirtualResource.java:118)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualResource.getProjectRelativePath(VirtualResource.java:154)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualResource.getWorkspaceRelativePath(VirtualResource.java:109)
+	at org.eclipse.wst.common.componentcore.internal.impl.ComponentCoreURIConverter.newPlatformURI(ComponentCoreURIConverter.java:105)
+	at org.eclipse.wst.common.componentcore.internal.impl.ComponentCoreURIConverter.access$1(ComponentCoreURIConverter.java:93)
+	at org.eclipse.wst.common.componentcore.internal.impl.ComponentCoreURIConverter$1.delegatedGetURI(ComponentCoreURIConverter.java:173)
+	at org.eclipse.emf.ecore.resource.impl.URIMappingRegistryImpl.getURI(URIMappingRegistryImpl.java:120)
+	at org.eclipse.emf.ecore.resource.impl.URIMappingRegistryImpl$URIMapImpl.getURI(URIMappingRegistryImpl.java:162)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.detectURIMapping(ProjectResourceSetImpl.java:780)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.createResource(ProjectResourceSetImpl.java:716)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.ProjectResourceSetEditImpl.createResource(ProjectResourceSetEditImpl.java:49)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandCreateResource(ResourceSetImpl.java:243)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1072)
+	at org.eclipse.wst.common.internal.emfworkbench.WorkbenchResourceHelper.getOrCreateResource(WorkbenchResourceHelper.java:380)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getResource(EditModel.java:694)
+	at org.eclipse.wst.common.componentcore.internal.ArtifactEditModel.getResource(ArtifactEditModel.java:198)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getPrimaryResource(EditModel.java:1530)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getPrimaryRootObject(EditModel.java:1511)
+	at org.eclipse.wst.common.componentcore.ArtifactEdit.getContentModelRoot(ArtifactEdit.java:567)
+	at org.eclipse.jst.j2ee.navigator.internal.FlexibleEMFModelManager.getRootObjects(FlexibleEMFModelManager.java:92)
+	at org.eclipse.jst.j2ee.navigator.internal.FlexibleEMFModelManager.getModels(FlexibleEMFModelManager.java:57)
+	at org.eclipse.jst.j2ee.navigator.internal.EMFRootObjectProvider.getModels(EMFRootObjectProvider.java:58)
+	at org.eclipse.jst.j2ee.navigator.internal.LoadingDDJob.run(LoadingDDJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jst.j2ee.navigator.ui 4 0 2023-10-11 12:38:06.558
+!MESSAGE Cannot invoke "Object.equals(Object)" because the return value of "org.eclipse.emf.ecore.resource.impl.URIConverterImpl$URIMap.getURI(org.eclipse.emf.common.util.URI)" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "org.eclipse.emf.ecore.resource.impl.URIConverterImpl$URIMap.getURI(org.eclipse.emf.common.util.URI)" is null
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.detectURIMapping(ProjectResourceSetImpl.java:780)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.createResource(ProjectResourceSetImpl.java:716)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.ProjectResourceSetEditImpl.createResource(ProjectResourceSetEditImpl.java:49)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandCreateResource(ResourceSetImpl.java:243)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1072)
+	at org.eclipse.wst.common.internal.emfworkbench.WorkbenchResourceHelper.getOrCreateResource(WorkbenchResourceHelper.java:380)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getResource(EditModel.java:694)
+	at org.eclipse.wst.common.componentcore.internal.ArtifactEditModel.getResource(ArtifactEditModel.java:198)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getPrimaryResource(EditModel.java:1530)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getPrimaryRootObject(EditModel.java:1511)
+	at org.eclipse.wst.common.componentcore.ArtifactEdit.getContentModelRoot(ArtifactEdit.java:567)
+	at org.eclipse.jst.j2ee.navigator.internal.FlexibleEMFModelManager.getRootObjects(FlexibleEMFModelManager.java:92)
+	at org.eclipse.jst.j2ee.navigator.internal.FlexibleEMFModelManager.getModels(FlexibleEMFModelManager.java:57)
+	at org.eclipse.jst.j2ee.navigator.internal.EMFRootObjectProvider.getModels(EMFRootObjectProvider.java:58)
+	at org.eclipse.jst.j2ee.navigator.internal.LoadingDDJob.run(LoadingDDJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:38:08.056
+!MESSAGE Classpath changed for project: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:38:08.056
+!MESSAGE Boot project ADDED: Ex12_Valid_Annotation
+!SESSION 2023-10-11 12:40:31.474 -----------------------------------------------
+eclipse.buildId=4.20.0.202309081654
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-10-11 12:40:34.174
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-10-11 12:40:38.551
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2023-10-11 12:41:01.078
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-11 12:41:01.078
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-11 12:41:01.078
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-11 12:41:01.078
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-11 12:41:07.764
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Dev\sts-4.20.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin\javaw.exe
+-cp
+C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes;C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/DevData/SpringBoot/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1696995667763
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:41:07.764
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-11 12:41:07.850
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 17984
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-11 12:41:09.580
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\study02'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:41:10.623
+!MESSAGE Boot project ADDED: Ex02_JavaCodeDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:41:10.624
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:41:10.625
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:41:10.626
+!MESSAGE Boot project ADDED: Ex03_AnnotationDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:41:10.626
+!MESSAGE Boot project ADDED: Ex04_WebBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:41:10.627
+!MESSAGE Boot project ADDED: Ex05_JspUse
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:41:10.627
+!MESSAGE Boot project ADDED: Ex06_Model
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:41:10.628
+!MESSAGE Boot project ADDED: Ex07_Form
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:41:10.628
+!MESSAGE Boot project ADDED: Ex08_Lombok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:41:10.629
+!MESSAGE Boot project ADDED: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:41:10.629
+!MESSAGE Boot project ADDED: Ex10_ValidationUtils
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:41:10.630
+!MESSAGE Boot project ADDED: Ex11_Valid_initBinder
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:41:10.631
+!MESSAGE Boot project ADDED: HelloWorld
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:41:10.631
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2023-10-11 12:41:19.941
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:44:27.124
+!MESSAGE Classpath changed for project: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:44:27.129
+!MESSAGE Boot project ADDED: Ex12_Valid_Annotation
+
+!ENTRY org.eclipse.jface 2 0 2023-10-11 12:44:45.120
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-11 12:44:45.120
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:45:25.814
+!MESSAGE Classpath changed for project: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:51:59.127
+!MESSAGE Classpath changed for project: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:51:59.127
+!MESSAGE Boot project REMOVED: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-10-11 12:51:59.183
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): Ex12_Valid_Annotation does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:550)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2567)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2445)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2488)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:428)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-10-11 12:51:59.184
+!MESSAGE Ex12_Valid_Annotation does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-10-11 12:51:59.184
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): Ex12_Valid_Annotation does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:550)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2567)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2445)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2488)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:428)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2023-10-11 12:51:59.185
+!MESSAGE Ex12_Valid_Annotation does not exist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:52:31.231
+!MESSAGE Classpath changed for project: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:52:31.231
+!MESSAGE Boot project ADDED: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 12:52:31.648
+!MESSAGE Classpath changed for project: Ex12_Valid_Annotation
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-10-11 12:56:56.036
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-10-11 12:56:56.038
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-10-11 13:02:06.215
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-10-11 13:02:06.216
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+!SESSION 2023-10-11 13:02:23.346 -----------------------------------------------
+eclipse.buildId=4.20.0.202309081654
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data file:/C:/DevData/SpringBoot/ -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-10-11 13:02:24.818
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-10-11 13:02:28.719
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-11 13:02:28.719
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-11 13:02:28.719
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-11 13:02:28.719
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-11 13:02:33.362
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Dev\sts-4.20.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin\javaw.exe
+-cp
+C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes;C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/DevData/SpringBoot/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1696996953362
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 13:02:33.364
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-11 13:02:33.434
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 14408
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-11 13:02:34.606
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\study02'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 13:02:34.720
+!MESSAGE Boot project ADDED: Ex02_JavaCodeDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 13:02:34.721
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 13:02:34.725
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 13:02:34.728
+!MESSAGE Boot project ADDED: Ex03_AnnotationDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 13:02:34.730
+!MESSAGE Boot project ADDED: Ex04_WebBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 13:02:34.731
+!MESSAGE Boot project ADDED: Ex05_JspUse
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 13:02:34.814
+!MESSAGE Boot project ADDED: Ex06_Model
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 13:02:35.944
+!MESSAGE Boot project ADDED: Ex07_Form
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 13:02:35.946
+!MESSAGE Boot project ADDED: Ex08_Lombok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 13:02:35.946
+!MESSAGE Boot project ADDED: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 13:02:35.947
+!MESSAGE Boot project ADDED: Ex10_ValidationUtils
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 13:02:35.949
+!MESSAGE Boot project ADDED: Ex11_Valid_initBinder
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 13:02:35.949
+!MESSAGE Boot project ADDED: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 13:02:35.950
+!MESSAGE Boot project ADDED: HelloWorld
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 13:02:35.951
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.eclipse.jface 2 0 2023-10-11 13:03:29.170
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-11 13:03:29.170
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 13:10:56.117
+!MESSAGE Classpath changed for project: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 13:12:00.232
+!MESSAGE Classpath changed for project: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 13:15:32.922
+!MESSAGE Classpath changed for project: Ex11_Valid_initBinder
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 13:15:46.432
+!MESSAGE Classpath changed for project: Ex11_Valid_initBinder
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-10-11 13:17:12.826
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 14:07:28.868
+!MESSAGE Classpath changed for project: Ex10_ValidationUtils
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 14:07:34.978
+!MESSAGE Classpath changed for project: Ex10_ValidationUtils
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 14:08:11.016
+!MESSAGE Classpath changed for project: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 14:08:33.186
+!MESSAGE Classpath changed for project: Ex08_Lombok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 14:08:50.011
+!MESSAGE Classpath changed for project: Ex06_Model
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 14:09:24.342
+!MESSAGE Classpath changed for project: Ex05_JspUse
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 14:21:15.368
+!MESSAGE Classpath changed for project: Ex04_WebBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 14:21:44.014
+!MESSAGE Classpath changed for project: Ex04_WebBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 14:31:30.915
+!MESSAGE Classpath changed for project: Ex13_JdbcTemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 14:31:30.920
+!MESSAGE Boot project ADDED: Ex13_JdbcTemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 14:31:37.927
+!MESSAGE Classpath changed for project: Ex13_JdbcTemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 14:31:37.927
+!MESSAGE Boot project REMOVED: Ex13_JdbcTemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 14:32:31.069
+!MESSAGE Classpath changed for project: Ex13_JdbcTemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 14:32:31.069
+!MESSAGE Boot project ADDED: Ex13_JdbcTemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 14:36:36.378
+!MESSAGE Classpath changed for project: Ex13_JdbcTemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 14:43:20.365
+!MESSAGE Classpath changed for project: Ex13_JdbcTemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 14:43:28.266
+!MESSAGE Classpath changed for project: Ex13_JdbcTemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 15:28:32.805
+!MESSAGE Classpath changed for project: Ex14_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 15:28:32.806
+!MESSAGE Boot project ADDED: Ex14_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 15:35:52.640
+!MESSAGE Classpath changed for project: Ex14_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 15:36:00.630
+!MESSAGE Classpath changed for project: Ex14_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 15:37:52.872
+!MESSAGE Classpath changed for project: Ex14_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 15:42:52.523
+!MESSAGE Classpath changed for project: Ex14_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 15:43:15.405
+!MESSAGE Classpath changed for project: Ex14_SimpleBBS

@@ -4899,3 +4899,1293 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-11 15:43:15.405
 !MESSAGE Classpath changed for project: Ex14_SimpleBBS
+!SESSION 2023-10-12 09:30:50.882 -----------------------------------------------
+eclipse.buildId=4.20.0.202309081654
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-10-12 09:30:55.564
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-10-12 09:31:37.183
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-12 09:31:37.183
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-12 09:31:37.183
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-12 09:31:37.183
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface 2 0 2023-10-12 09:31:44.041
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-12 09:31:44.041
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-12 09:31:44.466
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\study02'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 09:31:46.619
+!MESSAGE Boot project ADDED: Ex02_JavaCodeDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 09:31:46.619
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 09:31:46.677
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 09:31:46.677
+!MESSAGE Boot project ADDED: Ex03_AnnotationDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 09:31:46.678
+!MESSAGE Boot project ADDED: Ex04_WebBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 09:31:46.679
+!MESSAGE Boot project ADDED: Ex05_JspUse
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 09:31:46.680
+!MESSAGE Boot project ADDED: Ex06_Model
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 09:31:46.680
+!MESSAGE Boot project ADDED: Ex07_Form
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 09:31:46.681
+!MESSAGE Boot project ADDED: Ex08_Lombok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 09:31:46.682
+!MESSAGE Boot project ADDED: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 09:31:46.683
+!MESSAGE Boot project ADDED: Ex10_ValidationUtils
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 09:31:46.683
+!MESSAGE Boot project ADDED: Ex11_Valid_initBinder
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 09:31:46.684
+!MESSAGE Boot project ADDED: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 09:31:46.686
+!MESSAGE Boot project ADDED: Ex13_JdbcTemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 09:31:46.688
+!MESSAGE Boot project ADDED: Ex14_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 09:31:46.688
+!MESSAGE Boot project ADDED: HelloWorld
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 09:31:46.689
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-12 09:31:46.829
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Dev\sts-4.20.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin\javaw.exe
+-cp
+C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes;C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/DevData/SpringBoot/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1697070706829
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 09:31:46.830
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-12 09:31:47.052
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 18164
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 10:11:30.337
+!MESSAGE Classpath changed for project: Ex15_MyBatis
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 10:11:30.337
+!MESSAGE Boot project ADDED: Ex15_MyBatis
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 10:12:20.655
+!MESSAGE Classpath changed for project: Ex15_MyBatis
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 10:16:44.227
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 10:16:44.228
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 10:16:44.228
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 10:16:44.229
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 10:16:44.235
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 10:16:44.238
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 10:34:38.101
+!MESSAGE Classpath changed for project: Ex15_MyBatis
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 10:38:46.578
+!MESSAGE Classpath changed for project: Ex15_MyBatis
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-10-12 10:39:40.229
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-10-12 10:39:40.232
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 10:41:03.094
+!MESSAGE Classpath changed for project: Ex15_MyBatis
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 10:41:12.900
+!MESSAGE Classpath changed for project: Ex15_MyBatis
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 10:42:23.002
+!MESSAGE Classpath changed for project: Ex15_MyBatis
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 10:46:35.292
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 10:46:35.293
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 10:46:35.294
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 10:46:35.295
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 10:46:35.301
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 10:46:35.303
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 11:48:13.091
+!MESSAGE Classpath changed for project: Ex16_MyBatis_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 11:48:13.091
+!MESSAGE Boot project ADDED: Ex16_MyBatis_SimpleBBS
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 11:48:13.114
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 11:48:13.116
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 11:48:13.117
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 11:48:13.118
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 11:48:13.124
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 11:48:13.127
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 11:48:50.425
+!MESSAGE Classpath changed for project: Ex15_MyBatis
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 11:48:50.439
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 11:48:50.440
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 11:48:50.441
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 11:48:50.442
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 11:48:50.447
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 11:48:50.450
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 11:52:55.172
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 11:52:55.173
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 11:52:55.174
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 11:52:55.175
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 11:52:55.180
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 11:52:55.183
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 11:56:57.337
+!MESSAGE Classpath changed for project: Ex16_MyBatis_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 11:57:05.920
+!MESSAGE Classpath changed for project: Ex16_MyBatis_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 11:57:21.097
+!MESSAGE Classpath changed for project: Ex16_MyBatis_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 12:57:01.771
+!MESSAGE Classpath changed for project: Ex17_MyBatis_Param
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 12:57:01.780
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 12:57:01.780
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 12:57:01.781
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 12:57:01.782
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 12:57:01.789
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 12:57:01.792
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 12:57:03.287
+!MESSAGE Classpath changed for project: Ex17_MyBatis_Param
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 12:57:06.064
+!MESSAGE Classpath changed for project: Ex17_MyBatis_Param
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 12:57:06.065
+!MESSAGE Boot project ADDED: Ex17_MyBatis_Param
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 13:01:28.766
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 13:01:28.767
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 13:01:28.768
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 13:01:28.769
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 13:01:28.774
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 13:01:28.777
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 14:23:51.790
+!MESSAGE Classpath changed for project: Ex18_MyBatis_ResultNum
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 14:23:51.797
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 14:23:51.798
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 14:23:51.799
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 14:23:51.799
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 14:23:51.805
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 14:23:51.807
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 14:23:53.381
+!MESSAGE Classpath changed for project: Ex18_MyBatis_ResultNum
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 14:23:56.213
+!MESSAGE Classpath changed for project: Ex18_MyBatis_ResultNum
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 14:23:56.213
+!MESSAGE Boot project ADDED: Ex18_MyBatis_ResultNum
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 14:31:35.984
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 14:31:35.985
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 14:31:35.986
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 14:31:35.986
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 14:31:35.992
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 14:31:35.995
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 14:53:41.875
+!MESSAGE Classpath changed for project: Ex19_MyBatis_Complex
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 14:53:41.883
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 14:53:41.884
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 14:53:41.884
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 14:53:41.885
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 14:53:41.891
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 14:53:41.893
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 14:53:43.428
+!MESSAGE Classpath changed for project: Ex19_MyBatis_Complex
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 14:53:47.972
+!MESSAGE Classpath changed for project: Ex19_MyBatis_Complex
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 14:53:47.973
+!MESSAGE Boot project ADDED: Ex19_MyBatis_Complex
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 15:02:35.713
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 15:02:35.713
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 15:02:35.714
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 15:02:35.715
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 15:02:35.720
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 15:02:35.723
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 15:20:12.087
+!MESSAGE Classpath changed for project: Ex19_MyBatis_Complex
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 15:29:19.893
+!MESSAGE Classpath changed for project: Ex19_MyBatis_Complex
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-10-12 15:29:27.304
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-10-12 15:29:27.305
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 15:29:50.416
+!MESSAGE Classpath changed for project: Ex19_MyBatis_Complex
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 15:29:59.068
+!MESSAGE Classpath changed for project: Ex19_MyBatis_Complex
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 15:33:40.413
+!MESSAGE Classpath changed for project: Ex19_MyBatis_Complex
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 15:49:47.350
+!MESSAGE Classpath changed for project: Ex20_SqlLog
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 15:49:48.916
+!MESSAGE Classpath changed for project: Ex20_SqlLog
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 15:49:49.587
+!MESSAGE Classpath changed for project: Ex20_SqlLog
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 15:49:49.589
+!MESSAGE Boot project ADDED: Ex20_SqlLog
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 15:57:18.982
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 15:57:18.983
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 15:57:18.983
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 15:57:18.984
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 15:57:18.989
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 15:57:18.991
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:11:50.522
+!MESSAGE Classpath changed for project: Ex20_SqlLog
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:28:58.381
+!MESSAGE Classpath changed for project: Ex21_Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:28:59.940
+!MESSAGE Classpath changed for project: Ex21_Service
+
+!ENTRY org.eclipse.wst.common.modulecore 4 0 2023-10-12 16:29:00.061
+!MESSAGE Attempted to beginRule: F/Ex21_Service/.settings, does not match outer scope rule: org.eclipse.jst.j2ee.navigator.internal.NonConflictingRule@3c6c0165
+!STACK 0
+java.lang.IllegalArgumentException: Attempted to beginRule: F/Ex21_Service/.settings, does not match outer scope rule: org.eclipse.jst.j2ee.navigator.internal.NonConflictingRule@3c6c0165
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:66)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:138)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:402)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:93)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:342)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2403)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1602)
+	at org.eclipse.core.internal.resources.File.refreshLocal(File.java:337)
+	at org.eclipse.jem.util.emf.workbench.WorkbenchURIConverterImpl.createPlatformResourceInputStream(WorkbenchURIConverterImpl.java:501)
+	at org.eclipse.emf.ecore.resource.impl.URIConverterImpl.createInputStream(URIConverterImpl.java:435)
+	at org.eclipse.emf.ecore.resource.impl.URIConverterImpl.createInputStream(URIConverterImpl.java:451)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1314)
+	at org.eclipse.wst.common.internal.emf.resource.CompatibilityXMIResourceImpl.load(CompatibilityXMIResourceImpl.java:277)
+	at org.eclipse.wst.common.internal.emf.resource.TranslatorResourceImpl.load(TranslatorResourceImpl.java:432)
+	at org.eclipse.wst.common.componentcore.internal.ModuleStructuralModel.getAndLoadLocalResource(ModuleStructuralModel.java:377)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getResource(EditModel.java:692)
+	at org.eclipse.wst.common.componentcore.internal.ModuleStructuralModel.getPrimaryResource(ModuleStructuralModel.java:332)
+	at org.eclipse.wst.common.componentcore.internal.ModuleStructuralModel.prepareProjectModulesIfNecessary(ModuleStructuralModel.java:240)
+	at org.eclipse.wst.common.componentcore.internal.ModuleStructuralModel.getPrimaryRootObject(ModuleStructuralModel.java:119)
+	at org.eclipse.wst.common.componentcore.internal.StructureEdit.getComponentModelRoot(StructureEdit.java:471)
+	at org.eclipse.wst.common.componentcore.internal.StructureEdit.getWorkbenchModules(StructureEdit.java:506)
+	at org.eclipse.wst.common.componentcore.internal.StructureEdit.getComponent(StructureEdit.java:949)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualResource.getReadOnlyComponent(VirtualResource.java:341)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualResource.getProjectRelativePaths(VirtualResource.java:118)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualResource.getProjectRelativePath(VirtualResource.java:154)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualResource.getWorkspaceRelativePath(VirtualResource.java:109)
+	at org.eclipse.wst.common.componentcore.internal.impl.ComponentCoreURIConverter.newPlatformURI(ComponentCoreURIConverter.java:105)
+	at org.eclipse.wst.common.componentcore.internal.impl.ComponentCoreURIConverter.access$1(ComponentCoreURIConverter.java:93)
+	at org.eclipse.wst.common.componentcore.internal.impl.ComponentCoreURIConverter$1.delegatedGetURI(ComponentCoreURIConverter.java:173)
+	at org.eclipse.emf.ecore.resource.impl.URIMappingRegistryImpl.getURI(URIMappingRegistryImpl.java:120)
+	at org.eclipse.emf.ecore.resource.impl.URIMappingRegistryImpl$URIMapImpl.getURI(URIMappingRegistryImpl.java:162)
+	at org.eclipse.jem.internal.util.emf.workbench.WorkspaceResourceHandler.getResource(WorkspaceResourceHandler.java:47)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResourceFromHandlers(ProjectResourceSetImpl.java:855)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.delegatedGetResource(ProjectResourceSetImpl.java:708)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1060)
+	at org.eclipse.wst.common.internal.emfworkbench.WorkbenchResourceHelper.getOrCreateResource(WorkbenchResourceHelper.java:380)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getResource(EditModel.java:694)
+	at org.eclipse.wst.common.componentcore.internal.ArtifactEditModel.getResource(ArtifactEditModel.java:198)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getPrimaryResource(EditModel.java:1530)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getPrimaryRootObject(EditModel.java:1511)
+	at org.eclipse.wst.common.componentcore.ArtifactEdit.getContentModelRoot(ArtifactEdit.java:567)
+	at org.eclipse.jst.j2ee.navigator.internal.FlexibleEMFModelManager.getRootObjects(FlexibleEMFModelManager.java:92)
+	at org.eclipse.jst.j2ee.navigator.internal.FlexibleEMFModelManager.getModels(FlexibleEMFModelManager.java:57)
+	at org.eclipse.jst.j2ee.navigator.internal.EMFRootObjectProvider.getModels(EMFRootObjectProvider.java:58)
+	at org.eclipse.jst.j2ee.navigator.internal.LoadingDDJob.run(LoadingDDJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.common.modulecore 4 0 2023-10-12 16:29:00.063
+!MESSAGE Attempted to beginRule: F/Ex21_Service/.settings, does not match outer scope rule: org.eclipse.jst.j2ee.navigator.internal.NonConflictingRule@3c6c0165
+!STACK 0
+java.lang.IllegalArgumentException: Attempted to beginRule: F/Ex21_Service/.settings, does not match outer scope rule: org.eclipse.jst.j2ee.navigator.internal.NonConflictingRule@3c6c0165
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:66)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:138)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:402)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:93)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:342)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2403)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1602)
+	at org.eclipse.core.internal.resources.File.refreshLocal(File.java:337)
+	at org.eclipse.jem.util.emf.workbench.WorkbenchURIConverterImpl.createPlatformResourceInputStream(WorkbenchURIConverterImpl.java:501)
+	at org.eclipse.emf.ecore.resource.impl.URIConverterImpl.createInputStream(URIConverterImpl.java:435)
+	at org.eclipse.emf.ecore.resource.impl.URIConverterImpl.createInputStream(URIConverterImpl.java:451)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1314)
+	at org.eclipse.wst.common.internal.emf.resource.CompatibilityXMIResourceImpl.load(CompatibilityXMIResourceImpl.java:277)
+	at org.eclipse.wst.common.internal.emf.resource.TranslatorResourceImpl.load(TranslatorResourceImpl.java:432)
+	at org.eclipse.wst.common.componentcore.internal.ModuleStructuralModel.getAndLoadLocalResource(ModuleStructuralModel.java:377)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getResource(EditModel.java:692)
+	at org.eclipse.wst.common.componentcore.internal.ModuleStructuralModel.getPrimaryResource(ModuleStructuralModel.java:332)
+	at org.eclipse.wst.common.componentcore.internal.ModuleStructuralModel.prepareProjectModulesIfNecessary(ModuleStructuralModel.java:240)
+	at org.eclipse.wst.common.componentcore.internal.ModuleStructuralModel.getPrimaryRootObject(ModuleStructuralModel.java:119)
+	at org.eclipse.wst.common.componentcore.internal.StructureEdit.getComponentModelRoot(StructureEdit.java:471)
+	at org.eclipse.wst.common.componentcore.internal.StructureEdit.getWorkbenchModules(StructureEdit.java:506)
+	at org.eclipse.wst.common.componentcore.internal.StructureEdit.getComponent(StructureEdit.java:949)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualResource.getReadOnlyComponent(VirtualResource.java:341)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualResource.getProjectRelativePaths(VirtualResource.java:118)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualResource.getProjectRelativePath(VirtualResource.java:154)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualResource.getWorkspaceRelativePath(VirtualResource.java:109)
+	at org.eclipse.wst.common.componentcore.internal.impl.ComponentCoreURIConverter.newPlatformURI(ComponentCoreURIConverter.java:105)
+	at org.eclipse.wst.common.componentcore.internal.impl.ComponentCoreURIConverter.access$1(ComponentCoreURIConverter.java:93)
+	at org.eclipse.wst.common.componentcore.internal.impl.ComponentCoreURIConverter$1.delegatedGetURI(ComponentCoreURIConverter.java:173)
+	at org.eclipse.emf.ecore.resource.impl.URIMappingRegistryImpl.getURI(URIMappingRegistryImpl.java:120)
+	at org.eclipse.emf.ecore.resource.impl.URIMappingRegistryImpl$URIMapImpl.getURI(URIMappingRegistryImpl.java:162)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.detectURIMapping(ProjectResourceSetImpl.java:780)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.createResource(ProjectResourceSetImpl.java:716)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.ProjectResourceSetEditImpl.createResource(ProjectResourceSetEditImpl.java:49)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandCreateResource(ResourceSetImpl.java:243)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1072)
+	at org.eclipse.wst.common.internal.emfworkbench.WorkbenchResourceHelper.getOrCreateResource(WorkbenchResourceHelper.java:380)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getResource(EditModel.java:694)
+	at org.eclipse.wst.common.componentcore.internal.ArtifactEditModel.getResource(ArtifactEditModel.java:198)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getPrimaryResource(EditModel.java:1530)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getPrimaryRootObject(EditModel.java:1511)
+	at org.eclipse.wst.common.componentcore.ArtifactEdit.getContentModelRoot(ArtifactEdit.java:567)
+	at org.eclipse.jst.j2ee.navigator.internal.FlexibleEMFModelManager.getRootObjects(FlexibleEMFModelManager.java:92)
+	at org.eclipse.jst.j2ee.navigator.internal.FlexibleEMFModelManager.getModels(FlexibleEMFModelManager.java:57)
+	at org.eclipse.jst.j2ee.navigator.internal.EMFRootObjectProvider.getModels(EMFRootObjectProvider.java:58)
+	at org.eclipse.jst.j2ee.navigator.internal.LoadingDDJob.run(LoadingDDJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jst.j2ee.navigator.ui 4 0 2023-10-12 16:29:00.064
+!MESSAGE Cannot invoke "Object.equals(Object)" because the return value of "org.eclipse.emf.ecore.resource.impl.URIConverterImpl$URIMap.getURI(org.eclipse.emf.common.util.URI)" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because the return value of "org.eclipse.emf.ecore.resource.impl.URIConverterImpl$URIMap.getURI(org.eclipse.emf.common.util.URI)" is null
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.detectURIMapping(ProjectResourceSetImpl.java:780)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.createResource(ProjectResourceSetImpl.java:716)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.ProjectResourceSetEditImpl.createResource(ProjectResourceSetEditImpl.java:49)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandCreateResource(ResourceSetImpl.java:243)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1072)
+	at org.eclipse.wst.common.internal.emfworkbench.WorkbenchResourceHelper.getOrCreateResource(WorkbenchResourceHelper.java:380)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getResource(EditModel.java:694)
+	at org.eclipse.wst.common.componentcore.internal.ArtifactEditModel.getResource(ArtifactEditModel.java:198)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getPrimaryResource(EditModel.java:1530)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getPrimaryRootObject(EditModel.java:1511)
+	at org.eclipse.wst.common.componentcore.ArtifactEdit.getContentModelRoot(ArtifactEdit.java:567)
+	at org.eclipse.jst.j2ee.navigator.internal.FlexibleEMFModelManager.getRootObjects(FlexibleEMFModelManager.java:92)
+	at org.eclipse.jst.j2ee.navigator.internal.FlexibleEMFModelManager.getModels(FlexibleEMFModelManager.java:57)
+	at org.eclipse.jst.j2ee.navigator.internal.EMFRootObjectProvider.getModels(EMFRootObjectProvider.java:58)
+	at org.eclipse.jst.j2ee.navigator.internal.LoadingDDJob.run(LoadingDDJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:29:02.227
+!MESSAGE Classpath changed for project: Ex21_Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:29:02.227
+!MESSAGE Boot project ADDED: Ex21_Service
+!SESSION 2023-10-12 16:29:38.644 -----------------------------------------------
+eclipse.buildId=4.20.0.202309081654
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-10-12 16:29:41.296
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-10-12 16:29:45.313
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2023-10-12 16:30:06.662
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-12 16:30:06.662
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-12 16:30:06.662
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-12 16:30:06.662
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 16:30:12.161
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 16:30:12.162
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 16:30:12.163
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 16:30:12.164
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 16:30:12.174
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-10-12 16:30:12.179
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-12 16:30:14.147
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\study02'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:15.786
+!MESSAGE Boot project ADDED: Ex02_JavaCodeDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:15.787
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:15.790
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:15.791
+!MESSAGE Boot project ADDED: Ex03_AnnotationDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:15.795
+!MESSAGE Boot project ADDED: Ex04_WebBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:15.796
+!MESSAGE Boot project ADDED: Ex05_JspUse
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:15.796
+!MESSAGE Boot project ADDED: Ex06_Model
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:15.797
+!MESSAGE Boot project ADDED: Ex07_Form
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:15.797
+!MESSAGE Boot project ADDED: Ex08_Lombok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:15.798
+!MESSAGE Boot project ADDED: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:15.823
+!MESSAGE Boot project ADDED: Ex10_ValidationUtils
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:15.824
+!MESSAGE Boot project ADDED: Ex11_Valid_initBinder
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:15.824
+!MESSAGE Boot project ADDED: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:15.825
+!MESSAGE Boot project ADDED: Ex13_JdbcTemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:15.826
+!MESSAGE Boot project ADDED: Ex14_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:15.826
+!MESSAGE Boot project ADDED: HelloWorld
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:15.829
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-12 16:30:15.906
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Dev\sts-4.20.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin\javaw.exe
+-cp
+C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes;C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/DevData/SpringBoot/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1697095815905
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:15.906
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-12 16:30:16.414
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 19156
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:17.473
+!MESSAGE Classpath changed for project: Ex15_MyBatis
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:17.473
+!MESSAGE Classpath changed for project: Ex16_MyBatis_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:17.474
+!MESSAGE Classpath changed for project: Ex17_MyBatis_Param
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:17.475
+!MESSAGE Classpath changed for project: Ex18_MyBatis_ResultNum
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:17.475
+!MESSAGE Classpath changed for project: Ex19_MyBatis_Complex
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:17.476
+!MESSAGE Classpath changed for project: Ex20_SqlLog
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:17.477
+!MESSAGE Classpath changed for project: Ex21_Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:42.783
+!MESSAGE Classpath changed for project: Ex19_MyBatis_Complex
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:42.783
+!MESSAGE Boot project ADDED: Ex19_MyBatis_Complex
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:46.025
+!MESSAGE Classpath changed for project: Ex18_MyBatis_ResultNum
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:46.026
+!MESSAGE Boot project ADDED: Ex18_MyBatis_ResultNum
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:46.026
+!MESSAGE Classpath changed for project: Ex17_MyBatis_Param
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:46.027
+!MESSAGE Boot project ADDED: Ex17_MyBatis_Param
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:47.799
+!MESSAGE Classpath changed for project: Ex21_Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:47.800
+!MESSAGE Boot project ADDED: Ex21_Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:47.800
+!MESSAGE Classpath changed for project: Ex15_MyBatis
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:47.800
+!MESSAGE Boot project ADDED: Ex15_MyBatis
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:49.515
+!MESSAGE Classpath changed for project: Ex20_SqlLog
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:49.516
+!MESSAGE Boot project ADDED: Ex20_SqlLog
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:50.454
+!MESSAGE Classpath changed for project: Ex16_MyBatis_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:30:50.455
+!MESSAGE Boot project ADDED: Ex16_MyBatis_SimpleBBS
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2023-10-12 16:30:51.208
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY org.eclipse.jface 2 0 2023-10-12 16:38:17.675
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-12 16:38:17.675
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:39:23.007
+!MESSAGE Classpath changed for project: Ex21_Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:39:29.055
+!MESSAGE Classpath changed for project: Ex21_Service
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-10-12 16:40:03.071
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-10-12 16:40:03.073
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+!SESSION 2023-10-12 16:45:44.363 -----------------------------------------------
+eclipse.buildId=4.20.0.202309081654
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data file:/C:/DevData/SpringBoot/ -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-10-12 16:45:45.561
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-10-12 16:45:49.197
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-12 16:45:49.197
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-12 16:45:49.197
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-12 16:45:49.197
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-12 16:45:55.086
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Dev\sts-4.20.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin\javaw.exe
+-cp
+C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes;C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/DevData/SpringBoot/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1697096755084
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:55.087
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-12 16:45:55.126
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11256
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-12 16:45:57.897
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\study02'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.090
+!MESSAGE Boot project ADDED: Ex02_JavaCodeDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.090
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.094
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.100
+!MESSAGE Boot project ADDED: Ex03_AnnotationDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.100
+!MESSAGE Boot project ADDED: Ex04_WebBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.101
+!MESSAGE Boot project ADDED: Ex05_JspUse
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.101
+!MESSAGE Boot project ADDED: Ex06_Model
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.102
+!MESSAGE Boot project ADDED: Ex07_Form
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.102
+!MESSAGE Boot project ADDED: Ex08_Lombok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.103
+!MESSAGE Boot project ADDED: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.103
+!MESSAGE Boot project ADDED: Ex10_ValidationUtils
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.104
+!MESSAGE Boot project ADDED: Ex11_Valid_initBinder
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.104
+!MESSAGE Boot project ADDED: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.105
+!MESSAGE Boot project ADDED: Ex13_JdbcTemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.105
+!MESSAGE Boot project ADDED: Ex14_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.106
+!MESSAGE Boot project ADDED: Ex15_MyBatis
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.106
+!MESSAGE Boot project ADDED: Ex16_MyBatis_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.107
+!MESSAGE Boot project ADDED: Ex17_MyBatis_Param
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.108
+!MESSAGE Boot project ADDED: Ex18_MyBatis_ResultNum
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.109
+!MESSAGE Boot project ADDED: Ex19_MyBatis_Complex
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.109
+!MESSAGE Boot project ADDED: Ex20_SqlLog
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.110
+!MESSAGE Boot project ADDED: Ex21_Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.110
+!MESSAGE Boot project ADDED: HelloWorld
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:45:58.111
+!MESSAGE Boot project ADDED: demo
+!SESSION 2023-10-12 16:47:34.384 -----------------------------------------------
+eclipse.buildId=4.20.0.202309081654
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-10-12 16:47:35.597
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-10-12 16:47:44.839
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-12 16:47:44.839
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-12 16:47:44.839
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.run"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-12 16:47:44.839
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.wst.server.launchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-12 16:47:49.825
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Dev\sts-4.20.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230831-1047\jre\bin\javaw.exe
+-cp
+C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes;C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Dev\sts-4.20.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.49.0.202309081616\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/DevData/SpringBoot/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1697096869825
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:49.828
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-10-12 16:47:49.875
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 16452
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.608
+!MESSAGE Boot project ADDED: Ex02_JavaCodeDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.608
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.610
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.610
+!MESSAGE Boot project ADDED: Ex03_AnnotationDI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.611
+!MESSAGE Boot project ADDED: Ex04_WebBasic
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.612
+!MESSAGE Boot project ADDED: Ex05_JspUse
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.613
+!MESSAGE Boot project ADDED: Ex06_Model
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.613
+!MESSAGE Boot project ADDED: Ex07_Form
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.614
+!MESSAGE Boot project ADDED: Ex08_Lombok
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.614
+!MESSAGE Boot project ADDED: Ex09_Validator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.615
+!MESSAGE Boot project ADDED: Ex10_ValidationUtils
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.616
+!MESSAGE Boot project ADDED: Ex11_Valid_initBinder
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.616
+!MESSAGE Boot project ADDED: Ex12_Valid_Annotation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.617
+!MESSAGE Boot project ADDED: Ex13_JdbcTemplate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.617
+!MESSAGE Boot project ADDED: Ex14_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.617
+!MESSAGE Boot project ADDED: Ex15_MyBatis
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.618
+!MESSAGE Boot project ADDED: Ex16_MyBatis_SimpleBBS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.619
+!MESSAGE Boot project ADDED: Ex17_MyBatis_Param
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.620
+!MESSAGE Boot project ADDED: Ex18_MyBatis_ResultNum
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.620
+!MESSAGE Boot project ADDED: Ex19_MyBatis_Complex
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.621
+!MESSAGE Boot project ADDED: Ex20_SqlLog
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.621
+!MESSAGE Boot project ADDED: Ex21_Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.623
+!MESSAGE Boot project ADDED: HelloWorld
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-10-12 16:47:51.624
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-12 16:47:51.746
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\study02'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-10-12 16:47:58.999
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.wst.sse.core 2 2 2023-10-12 16:47:59.002
+!MESSAGE Detected content type did not match one for which a model handler is registered: org.eclipse.wildwebdeveloper.html vs. org.eclipse.wst.html.core.htmlsource
+
+!ENTRY org.eclipse.jface 2 0 2023-10-12 16:48:34.724
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-12 16:48:34.724
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SESSION 2023-10-13 09:27:14.877 -----------------------------------------------
+eclipse.buildId=4.20.0.202309081654
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-10-13 09:27:18.320
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'

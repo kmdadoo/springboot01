@@ -10,8 +10,13 @@ import com.study.springboot.dao.ISimpleBbsDao;
 import jakarta.servlet.http.HttpServletRequest;
 
 @Controller
-public class MyController {
-
+public class MyController 
+{
+	/*
+		DAO의 부모로 선언된 서비스 인터페이스를 통해 dao객채를 생성한다.
+		상속구조를 가지고 있으므로 부모를 통해 자식의 메서드를 호출할 수
+		있다.
+	*/
 	@Autowired
 	ISimpleBbsDao dao;	// 인터페이스 데이타 사용
 
@@ -21,8 +26,13 @@ public class MyController {
 		return "redirect:list"; // /list로 보냄
     }
 
+    // 게시물 목록
 	@RequestMapping("/list")  // 프론트 컨트롤러
     public String userlistPage(Model model) {
+		/*
+			DAO 클래스의 select()메서드를 호출하여 회워목록을 List로 반환받은 후
+			Model객체에 저장하고 View로 반환 한다.
+		*/
 		model.addAttribute("list", dao.listDao());
         return "list";
     }

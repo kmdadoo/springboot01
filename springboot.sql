@@ -21,3 +21,17 @@ create table simple_bbs (
 drop sequence simple_bbs_seq;
 create sequence simple_bbs_seq;
 
+
+create table user_list (
+    name varchar2(20) primary key,
+    password varchar2(100),
+    authority varchar(20),
+    enabled number(1)
+);
+
+insert into user_list values ('user', '$2a$10$aeBmUoFNSBmt0.7PUaErNeysL.c5chxt.AJTTMTyZdJsQFQ2W0B2.', 'ROLE_USER', 1);
+insert into user_list values ('admin', '$2a$10$aeBmUoFNSBmt0.7PUaErNeysL.c5chxt.AJTTMTyZdJsQFQ2W0B2.', 'ROLE_ADMIN', 1);
+commit;
+delete user_list;
+select * from user_list;
+

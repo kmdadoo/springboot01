@@ -25,6 +25,7 @@
 	</section>
 	<section name="OptionalMessageDialog.hide.">
 		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>
+		<item key="configure_problem_severity_dialog_id" value="false"/>
 	</section>
 	<section name="NewClassWizardPage">
 		<item key="create_constructor" value="false"/>
@@ -117,5 +118,16 @@
 		<item key="DIALOG_WIDTH" value="373"/>
 		<item key="DIALOG_HEIGHT" value="549"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="ProblemSeveritiesConfigurationBlock">
+		<item key="expanded0" value="false"/>
+		<item key="expanded1" value="false"/>
+		<item key="expanded2" value="false"/>
+		<item key="expanded3" value="true"/>
+		<item key="expanded4" value="false"/>
+		<item key="expanded5" value="false"/>
+		<item key="expanded6" value="false"/>
+		<item key="expanded7" value="false"/>
+		<item key="expanded8" value="false"/>
 	</section>
 </section>

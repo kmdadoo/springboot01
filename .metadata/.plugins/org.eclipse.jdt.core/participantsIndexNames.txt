@@ -89,6 +89,8 @@ C:\DevData\SpringBoot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3747
 \Ex12_Valid_Annotation\src\main\java
 C:\DevData\SpringBoot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2925128340.index
 \Ex24_TransactionTemplate\src\main\java
+C:\DevData\SpringBoot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1069138874.index
+\Ex36_SpringJpa03\src\main\java
 C:\DevData\SpringBoot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1315366871.index
 \Ex28_Security-StatusCheck\src\main\java
 C:\DevData\SpringBoot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3020689574.index

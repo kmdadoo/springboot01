@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="installedFeatures">
+		<item value="io.emmet.eclipse:1.0.0.201401132323"/>
 		<item value="org.eclipse.buildship:3.1.7.v20230428-1350"/>
 		<item value="org.eclipse.datatools.connectivity.feature:1.15.0.202305310959"/>
 		<item value="org.eclipse.datatools.doc.user:1.15.0.202305310959"/>
@@ -82,10 +83,6 @@
 		<item value="org.jboss.tools.m2e.wro4j.feature:1.2.1.202301111328"/>
 		<item value="org.sonatype.m2e.egit.feature:0.17.0.202209271423"/>
 	</list>
-	<section name="ChooseWorkspaceDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="214"/>
-		<item key="DIALOG_Y_ORIGIN" value="197"/>
-	</section>
 	<section name="SmartImportWizard">
 		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
@@ -93,11 +90,7 @@
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
 			<item value="C:\DevData\SpringBoot"/>
-			<item value="C:\DevData\Spring"/>
-			<item value="C:\DevData\JAVA\eclipse-workspace"/>
 		</list>
-	</section>
-	<section name="NewWizardAction">
 	</section>
 	<section name="CleanDialogSettings">
 		<item key="TOGGLE_SELECTED" value="false"/>

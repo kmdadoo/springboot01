@@ -50,7 +50,7 @@
 		<h2>퀴즈</h2>
 		<ul>
 			<li><a href="memberRegist.do">회원가입</a></li>
-			<li><a href="memberLogin..do">회원로그인</a></li>
+			<li><a href="memberLogin.do">회원로그인</a></li>
 		</ul>
 	</body>
 </html>

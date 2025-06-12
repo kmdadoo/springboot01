@@ -145,4 +145,43 @@ public class MainController
 		return "member/result";
 	}
 	
+	//퀴즈] 로그인 폼에 대한 매핑 
+	@RequestMapping("/memberLogin.do")
+	public String memberLogin()
+	{
+		return "member/login";
+	}
+	//회원가입 처리 페이지에 대한 매핑 처리(post방식)
+//	//방법1] 커맨드 객체를 통해 폼값을 받음
+//	@RequestMapping("/loginProcess.do")
+//	public String loginProcess(QuizVO quizVO)
+//	{
+//		/* 커맨드 객체를 통해 폼값을 한꺼번에 받아서 처리한다. 
+//		커맨드 객체로 사용할 클래스명이 QuizVO라면 매개변수명은
+//		반드시 클래스명과 동일한 이름으로 사용해야한다. 즉 여기서는
+//		quizVO로 명시해야 한다. */
+//		return "member/result2";
+//	}
+	
+	//방법2] request내장객체를 통해 폼값을 받음
+	@RequestMapping("/loginProcess.do")
+	public String loginProcess(HttpServletRequest req, Model model)
+	{
+		//request 내장객체를 통해 폼값을 받음
+		String id = req.getParameter("id");
+		String pass1 = req.getParameter("pass1");
+		System.out.println("id="+id);
+		System.out.println("pass="+pass1);
+		
+		//VO객체에 폼값을 저장
+		QuizVO quizVO = new QuizVO();
+		quizVO.setId(id);
+		quizVO.setPass1(pass1);
+		
+		//Model객체에 VO를 저장한 후 View로 전달 
+		model.addAttribute("quizVO", quizVO);
+		
+		//View 경로 반환 
+		return "member/result2";
+	}
 }

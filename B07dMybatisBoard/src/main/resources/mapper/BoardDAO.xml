@@ -46,5 +46,40 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		않는 문자라는것을 명시하기위해 CDATA를 사용해야한다. 
 	-->
 	<!-- WHERE BETWEEN #{start} AND #{end} -->
-
+	
+	<!--  
+	입력 : @Param 어노테이션으로 변경된 이름으로 인파라미터를 설정한다. 
+	--> 
+	<insert id="write">
+		INSERT INTO myboard (idx, name, title, content)
+		VALUES
+		(seq_board_num.nextval, #{_name}, #{_title}, #{_content})
+	</insert>
+	
+	<!--  
+		열람 : 게시물의 일련번호를 DTO를 통해 받은 후 select하고, 결과를 다시 
+			DTO에 저장 후 반환한다. 
+	-->
+	<select id="view" resultType="com.edu.springboot.jdbc.BoardDTO"
+		parameterType="com.edu.springboot.jdbc.BoardDTO">
+		SELECT * FROM myboard WHERE idx=#{idx}	
+	</select>
+	
+	<!-- 
+	수정 : update 쿼리문의 실행결과는 정수이므로 resultType은 생략한다. 
+		폼값전체를 저장한 DTO객체를 parameterType으로 설정한다. 
+	-->
+	<update id="edit" parameterType="com.edu.springboot.jdbc.BoardDTO">
+		UPDATE myboard SET
+		name=#{name}, title=#{title}, content=#{content}
+		WHERE idx=#{idx}
+	</update>
+	
+	<!-- 
+	삭제 : parameterType을 별도로 명시하지 않는 경우에는 파라미터의 순서대로
+				param1,2 ..와 같이 인파라미터를 설정할 수 있다.
+    -->
+    <delete id="delete">
+    	DELETE FROM myboard WHERE idx=#{param1}
+    </delete>
 </mapper>

@@ -23,13 +23,13 @@ public class MainController
 	@RequestMapping("/member/index.do")
 	public String welocome2() 
 	{
-		return "guest";
+		return "member";
 	}
 	
 	//admin 하위는 ADMIN 권한만 접근할 수 있는 영역으로 설정 
 	@RequestMapping("/admin/index.do")
 	public String welocome3() 
 	{
-		return "guest";
+		return "admin";
 	}
 }

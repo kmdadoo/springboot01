@@ -1,15 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="jakarta.tags.core" %> 
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Error</title>
+		<title>denied</title>
 	</head>
 	<body>
-		<h2>티켓 구매 실패</h2>
-		
-		<a href=""buyTicket.do">티켓 구매</a>
+		<h2>권한이 부족합니다.</h2>
+		귀하는 접근이 불가합니다.
+		<%@ include file="/link.jsp" %>
 	</body>
 </html>
